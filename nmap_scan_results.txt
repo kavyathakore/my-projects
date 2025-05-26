@@ -1,0 +1,23 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-05-26 14:06 +0530
+Stats: 0:01:11 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 58.50% done; ETC: 14:07 (0:00:10 remaining)
+Nmap scan report for 192.168.139.254
+Host is up (0.00076s latency).
+All 1000 scanned ports on 192.168.139.254 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:50:56:E0:97:0B (VMware)
+
+Nmap scan report for 192.168.139.1
+Host is up (0.00083s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+1521/tcp open  oracle
+4343/tcp open  unicall
+4449/tcp open  privatewire
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 80.92 seconds
