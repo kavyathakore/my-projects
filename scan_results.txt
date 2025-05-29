@@ -1,0 +1,17 @@
+# Nmap 7.97 scan initiated Thu May 29 15:42:26 2025 as: nmap -sV -oN scan_results.txt 192.168.159.1
+Nmap scan report for 192.168.159.1
+Host is up (0.00014s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE          VERSION
+135/tcp  open  msrpc            Microsoft Windows RPC
+139/tcp  open  netbios-ssn      Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+902/tcp  open  ssl/vmware-auth  VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth      VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1521/tcp open  oracle-tns       Oracle TNS Listener 10.2.0.3.0 (for 32-bit Windows)
+4343/tcp open  ssl/unicall?
+4449/tcp open  ssl/privatewire?
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 29 15:45:13 2025 -- 1 IP address (1 host up) scanned in 167.57 seconds
