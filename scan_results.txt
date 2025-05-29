@@ -1,6 +1,6 @@
-# Nmap 7.97 scan initiated Thu May 29 15:53:29 2025 as: nmap -sV -oN scan_results.txt 192.168.159.1
+# Nmap 7.97 scan initiated Thu May 29 17:46:24 2025 as: nmap -sV -O -Pn -oN scan_results.txt 192.168.159.1
 Nmap scan report for 192.168.159.1
-Host is up (0.00019s latency).
+Host is up (0.00073s latency).
 Not shown: 992 closed tcp ports (reset)
 PORT     STATE SERVICE          VERSION
 135/tcp  open  msrpc            Microsoft Windows RPC
@@ -11,7 +11,25 @@ PORT     STATE SERVICE          VERSION
 1521/tcp open  oracle-tns       Oracle TNS Listener 10.2.0.3.0 (for 32-bit Windows)
 4343/tcp open  ssl/unicall?
 4449/tcp open  ssl/privatewire?
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=5/29%OT=135%CT=1%CU=32050%PV=Y%DS=0%DC=L%G=Y%TM=683850
+OS:CD%P=i686-pc-windows-windows)SEQ(SP=101%GCD=1%ISR=107%TI=I%CI=I%II=I%SS=
+OS:S%TS=A)SEQ(SP=101%GCD=1%ISR=109%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=102%GCD=
+OS:1%ISR=10A%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FE%GCD=1%ISR=10A%TI=I%CI=I%II=
+OS:I%SS=S%TS=A)SEQ(SP=FE%GCD=1%ISR=10F%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFFD
+OS:7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST1
+OS:1%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R
+OS:=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W
+OS:=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T
+OS:5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=
+OS:O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF
+OS:=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80
+OS:%CD=Z)
+
+Network Distance: 0 hops
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu May 29 15:56:17 2025 -- 1 IP address (1 host up) scanned in 167.99 seconds
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 29 17:49:25 2025 -- 1 IP address (1 host up) scanned in 180.97 seconds
